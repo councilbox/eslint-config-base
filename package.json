@@ -1,6 +1,6 @@
 {
   "name": "@councilbox/eslint-config-base",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "test": "eslint ."
   },
@@ -10,7 +10,8 @@
   },
   "author": "Councilbox (https://councilbox.com)",
   "contributors": [
-    "Jesús Leganés-Combarro 'piranna' <piranna@gmail.com>"
+    "Jesús Leganés-Combarro 'piranna' <piranna@gmail.com>",
+	"Miguel Rodríguez Crespo <mirodriguez11@gmail.com>"
   ],
   "license": "ISC",
   "bugs": {

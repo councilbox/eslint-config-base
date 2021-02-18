@@ -8,10 +8,19 @@ module.exports = {
 		'arrow-parens': ['error', 'as-needed'],
 		'comma-dangle': ['error', 'only-multiline'],
 		'function-paren-newline': 'warn',
-		'import/extensions': ['error', 'ignorePackages'],
+		'import/extensions': [
+            'error',
+            'ignorePackages',
+            {
+                'js': 'never',
+                'jsx': 'never',
+                'ts': 'never',
+                'tsx': 'never'
+            }
+        ],
 		'import/no-named-as-default': 'warn',
 		'import/prefer-default-export': 'warn',
-		indent: ['error', 'tab', {
+		'indent': ['error', 'tab', {
 			ignoredNodes: ['TemplateLiteral'],
 			SwitchCase: 1
 		}],
