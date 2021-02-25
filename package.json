@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "eslint": "*",
-    "husky": "^5.0.9"
+    "husky": "^5.1.1"
   },
   "husky": {
     "hooks": {
